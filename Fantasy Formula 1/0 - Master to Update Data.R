@@ -4,7 +4,6 @@
 ### Purpose: Create F1 Summary Statistics Graphs      ### 
 ###                                                   ### 
 ### Last updated: 09/30/2018                          ###                  
-### Audited: NO                                       ###                           
 #########################################################
 #########################################################
 
@@ -15,7 +14,7 @@
   number_of_teams <- 17
 
  # Set the working directory
-setwd("C:/Users/Karna Malaviya/Desktop/f1/")
+setwd("[configure]")
 
 # Clean Data
 source("analysis/code/2019 Fantasy/1 - Clean Results Data.R")
@@ -31,7 +30,7 @@ source("analysis/code/2019 Fantasy/4 - Prep Data for App.R")
 
 
 # Re-Deploy Shiny App
-setwd("C:/Users/Karna Malaviya/Desktop/f1/shiny apps/fantasy_2019")
+setwd("[configure]")
 
 source("App.R")
 deployApp()
