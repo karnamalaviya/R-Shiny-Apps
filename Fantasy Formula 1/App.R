@@ -8,8 +8,8 @@
 #########################################################
 #########################################################
 
- # Set the working directory
-# setwd("C:/Users/Karna Malaviya/Desktop/f1/shiny apps/fantasy_2019")
+# Set the working directory
+setwd("[configure]/Input")
 
 library(dplyr)
 library(readxl)
